@@ -1,3 +1,3 @@
 # goit-markup-hw-01
 
-The firs personal project
+The first personal project

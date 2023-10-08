@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
+
+  color: #434455;
 
   background-color: #fff;
   margin: 0;
@@ -29,16 +30,16 @@ ul li {
 }
 
 .main-logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 .main-logo > span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .top-line-nav {
@@ -59,13 +60,15 @@ ul li {
   letter-spacing: 0.32px;
 }
 
+address {
+  font-style: normal;
+}
 .addresat > ul {
   display: flex;
   flex-direction: row;
 }
 .addresat > ul li > a {
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
@@ -75,7 +78,6 @@ ul li {
 .top-nav-item:hover,
 .top-nav-item:focus {
   color: rgba(64, 75, 191, 1);
-  border-radius: 2px;
   text-decoration: underline;
 }
 
@@ -95,16 +97,16 @@ ul li {
   align-items: center;
 }
 
-.hero > h1 {
+.hero-title {
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 1.12px;
   color: white;
   width: 496px;
   text-align: center;
 }
-.hero > button {
+.hero-button {
   padding: 16px 32px;
   border-radius: 4px;
   background-color: #4d5ae5;
@@ -116,8 +118,8 @@ ul li {
   letter-spacing: 0.64px;
 }
 
-.hero > button:hover,
-.hero > button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: rgba(64, 75, 191, 1);
 }
 
@@ -158,11 +160,11 @@ ul li {
   letter-spacing: 0.4px;
 }
 
-.benefits-list > li > p {
+.li-text {
   color: #434455;
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   margin: 0;
 }
 
@@ -179,7 +181,7 @@ ul li {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   margin: 0 0 72px 0;
@@ -284,17 +286,17 @@ ul li {
 }
 
 .ground-logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
-  color: #ffffff;
+  color: #4d5ae5;
   margin: 0 0 17.5px 0;
 }
 .ground-logo > span {
-  color: #4d5ae5;
+  color: #ffffff;
 }
 
 .ground > p {

@@ -80,12 +80,12 @@ address {
   color: #404bbf;
   text-decoration: underline;
 }
-.addresat .addresat-mail {
+.addresat .addresat-contact {
   color: #434455;
 }
 
-.addresat .addresat-mail:hover,
-.addresat .addresat-mail:focus {
+.addresat .addresat-contact:hover,
+.addresat .addresat-contact:focus {
   color: #404bbf;
 }
 
@@ -222,6 +222,7 @@ address {
   line-height: 24px;
   letter-spacing: 0.4px;
   margin: 0 0 8px 0;
+  color: #2e2f42;
 }
 
 .crew-list > li > p {
@@ -269,12 +270,17 @@ address {
   align-items: flex-start;
   gap: 32px;
   flex-shrink: 0;
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--WHITE, #fff);
+  border: 1px solid #e7e9fc;
+  background: #ffffff;
 }
 
-.portfolio-list > li h3 {
+.portfolio-list-title {
   margin: 32px 0 8px 16px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .portfolio-list > li p {
@@ -299,11 +305,11 @@ address {
   color: #4d5ae5;
   margin: 0 0 17.5px 0;
 }
-.ground-logo > span {
-  color: #ffffff;
+.ground-logo-span {
+  color: #f4f4fd;
 }
 
-.ground > p {
+.ground-par {
   color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;

@@ -4,8 +4,6 @@ body {
   color: #434455;
 
   background-color: #fff;
-  margin: 0;
-  padding: 0;
 }
 button {
   cursor: pointer;
@@ -21,12 +19,7 @@ ul li {
 /*------ HEADER ------*/
 
 .top-line {
-  height: 72px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: space-between;
-  padding: 24px 156px;
 }
 
 .main-logo {
@@ -43,16 +36,9 @@ ul li {
 }
 
 .top-line-nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 
 .top-line-nav > ul {
-  display: flex;
-  flex-direction: row;
-  width: 261px;
-  height: 24px;
   justify-content: space-between;
   font-size: 16px;
   font-weight: 500;
@@ -64,8 +50,6 @@ address {
   font-style: normal;
 }
 .addresat > ul {
-  display: flex;
-  flex-direction: row;
 }
 .addresat > ul li > a {
   font-size: 16px;
@@ -92,12 +76,8 @@ address {
 /*------ HERO SECTION ------*/
 
 .hero {
-  height: 600px;
   background-color: #2e2f42;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .hero-title {
@@ -106,14 +86,10 @@ address {
   line-height: 1.07;
   letter-spacing: 1.12px;
   color: white;
-  width: 496px;
   text-align: center;
 }
 .hero-button {
-  padding: 16px 32px;
-  border-radius: 4px;
   background-color: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
@@ -129,24 +105,17 @@ address {
 /*------ Section benefits ------*/
 
 .benefits {
-  padding: 120px 156px;
-  display: flex;
-  flex-direction: row;
   justify-content: center;
 }
 
 .benefits-title {
-  display: none;
 }
 
 .benefits-list {
-  display: flex;
   justify-content: space-between;
 }
 
 .benefits-list > li {
-  width: 264px;
-  height: 104px;
   margin: 0 12px;
 }
 
@@ -175,9 +144,6 @@ address {
 
 .crew {
   background-color: #f4f4fd;
-  padding: 120px 156px;
-  display: flex;
-  flex-direction: column;
 }
 
 .crew-title {
@@ -192,26 +158,18 @@ address {
 }
 
 .crew-list {
-  display: flex;
   justify-content: center;
 }
 
 .crew-list > li {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   text-align: center;
-  border-radius: 0px 0px 4px 4px;
   background: #ffffff;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   margin: 0 12px;
 }
 
 .crew-list-foto {
   margin: 0 0 32px 0;
-  max-width: 264px;
   min-height: 260px;
 }
 
@@ -233,11 +191,6 @@ address {
 
 .portfolio {
   background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  padding-top: 120px;
-  padding-bottom: 72px;
-  align-items: center;
 }
 
 .portfolio-title {
@@ -252,22 +205,13 @@ address {
 }
 
 .portfolio-list {
-  padding: 0;
-  display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-content: space-between;
-  width: 1128px;
 }
 
 .portfolio-list > li {
   margin-bottom: 48px;
-  display: flex;
-  width: 360px;
-  height: 420px;
-  padding-bottom: 0px;
-  flex-direction: column;
-  align-items: flex-start;
   flex-shrink: 0;
   border: 1px solid #e7e9fc;
   background-color: #ffffff;
@@ -293,8 +237,6 @@ address {
 
 .ground {
   background-color: #2e2f42;
-  height: 312px;
-  padding: 101.5px 156px;
 }
 
 .ground-logo {
@@ -317,6 +259,4 @@ address {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
-  width: 264px;
-  height: 72px;
 }

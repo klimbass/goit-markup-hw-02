@@ -268,10 +268,12 @@ address {
   padding-bottom: 0px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
   flex-shrink: 0;
   border: 1px solid #e7e9fc;
-  background: #ffffff;
+  background-color: #ffffff;
+}
+.portfolio-list-img {
+  margin: 0;
 }
 
 .portfolio-list-title {

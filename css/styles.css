@@ -77,13 +77,16 @@ address {
 
 .top-nav-item:hover,
 .top-nav-item:focus {
-  color: rgba(64, 75, 191, 1);
+  color: #404bbf;
   text-decoration: underline;
+}
+.addresat .addresat-mail {
+  color: #434455;
 }
 
 .addresat .addresat-mail:hover,
 .addresat .addresat-mail:focus {
-  color: rgba(64, 75, 191, 1);
+  color: #404bbf;
 }
 
 /*------ HERO SECTION ------*/
@@ -185,6 +188,7 @@ address {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   margin: 0 0 72px 0;
+  color: #2e2f42;
 }
 
 .crew-list {

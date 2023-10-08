@@ -6,8 +6,12 @@ body {
   margin: 0;
   padding: 0;
 }
+button {
+  cursor: pointer;
+}
 a {
   text-decoration: none;
+  color: #2e2f42;
 }
 ul li {
   list-style-type: none;
@@ -55,25 +59,36 @@ ul li {
   letter-spacing: 0.32px;
 }
 
-.address > ul {
+.addresat > ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  color: #434455;
-  font-family: Roboto;
+}
+.addresat > ul li > a {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+  margin-right: 40px;
+}
+
+.top-nav-item:hover,
+.top-nav-item:focus {
+  color: rgba(64, 75, 191, 1);
+  border-radius: 2px;
+  text-decoration: underline;
+}
+
+.addresat .addresat-mail:hover,
+.addresat .addresat-mail:focus {
+  color: rgba(64, 75, 191, 1);
 }
 
 /* HERO SECTION*/
 
 .hero {
   height: 600px;
-  flex-shrink: 0;
-  background-color: var(--NAVY-BLUE, #2e2f42);
+  background-color: #2e2f42;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -82,9 +97,8 @@ ul li {
 
 .hero > h1 {
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 60px; /* 107.143% */
+  line-height: 60px;
   letter-spacing: 1.12px;
   color: white;
   width: 496px;
@@ -102,10 +116,18 @@ ul li {
   letter-spacing: 0.64px;
 }
 
+.hero > button:hover,
+.hero > button:focus {
+  background-color: rgba(64, 75, 191, 1);
+}
+
 /* Section benefits */
 
 .benefits {
   padding: 120px 156px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .benefits-title {
@@ -114,18 +136,21 @@ ul li {
 
 .benefits-list {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .benefits-list > li {
   width: 264px;
+  height: 104px;
+  margin: 0 12px;
 }
 
 .benefits-list > li > h3 {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
   margin-bottom: 8px;
   color: #2e2f42;
-  font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -135,12 +160,11 @@ ul li {
 
 .benefits-list > li > p {
   color: #434455;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+  margin: 0;
 }
 
 /* CREW */
@@ -148,57 +172,91 @@ ul li {
 .crew {
   background-color: #f4f4fd;
   padding: 120px 156px;
+  display: flex;
+  flex-direction: column;
 }
 
 .crew-title {
-  color: #2e2f42;
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin: 0 0 72px 0;
 }
 
 .crew-list {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .crew-list > li {
-  margin: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 0px 0px 4px 4px;
+  background: #ffffff;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  margin: 0 12px;
+}
+
+.crew-list-foto {
+  margin: 0 0 32px 0;
+  max-width: 264px;
+  min-height: 260px;
+}
+
+.crew-list-title {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  margin: 0 0 8px 0;
+}
+
+.crew-list > li > p {
+  margin: 0 0 32px 0;
 }
 
 /* portfolio */
 
 .portfolio {
   padding: 120px 156px;
+  display: flex;
+  flex-direction: column;
 }
 
 .portfolio-title {
   color: #2e2f42;
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin: 0 0 72px 0;
 }
 
 .portfolio-list {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: wrap row;
   justify-content: space-around;
+}
+
+.portfolio-list > li {
+  margin: 0 0 12px 0;
+  max-width: 360px;
 }
 
 /* FOOTER */
 
 footer {
   background-color: #2e2f42;
+  height: 312px;
+  padding: 156px;
 }

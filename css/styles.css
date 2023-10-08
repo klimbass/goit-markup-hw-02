@@ -17,7 +17,7 @@ ul li {
   list-style-type: none;
 }
 
-/* HEADER */
+/*------ HEADER ------*/
 
 .top-line {
   height: 72px;
@@ -84,7 +84,7 @@ ul li {
   color: rgba(64, 75, 191, 1);
 }
 
-/* HERO SECTION*/
+/*------ HERO SECTION ------*/
 
 .hero {
   height: 600px;
@@ -121,7 +121,7 @@ ul li {
   background-color: rgba(64, 75, 191, 1);
 }
 
-/* Section benefits */
+/*------ Section benefits ------*/
 
 .benefits {
   padding: 120px 156px;
@@ -161,13 +161,12 @@ ul li {
 .benefits-list > li > p {
   color: #434455;
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
   margin: 0;
 }
 
-/* CREW */
+/*------ CREW ------*/
 
 .crew {
   background-color: #f4f4fd;
@@ -223,12 +222,15 @@ ul li {
   margin: 0 0 32px 0;
 }
 
-/* portfolio */
+/* ------- portfolio ------*/
 
 .portfolio {
-  padding: 120px 156px;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
+  padding-top: 120px;
+  padding-bottom: 72px;
+  align-items: center;
 }
 
 .portfolio-title {
@@ -243,20 +245,64 @@ ul li {
 }
 
 .portfolio-list {
+  padding: 0;
   display: flex;
-  flex-flow: wrap row;
-  justify-content: space-around;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 1128px;
 }
 
 .portfolio-list > li {
-  margin: 0 0 12px 0;
-  max-width: 360px;
+  margin-bottom: 48px;
+  display: flex;
+  width: 360px;
+  height: 420px;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--WHITE, #fff);
 }
 
-/* FOOTER */
+.portfolio-list > li h3 {
+  margin: 32px 0 8px 16px;
+}
 
-footer {
+.portfolio-list > li p {
+  margin: 0 0 32px 16px;
+}
+
+/*------- FOOTER -------*/
+
+.ground {
   background-color: #2e2f42;
   height: 312px;
-  padding: 156px;
+  padding: 101.5px 156px;
+}
+
+.ground-logo {
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  color: #ffffff;
+  margin: 0 0 17.5px 0;
+}
+.ground-logo > span {
+  color: #4d5ae5;
+}
+
+.ground > p {
+  color: #f4f4fd;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  width: 264px;
+  height: 72px;
 }
